@@ -1,0 +1,512 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Whale Mail</title>
+  </head>
+  <style type="text/css">
+    @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap");
+    /* COLORS
+    
+    White: #ffffff
+    Dark Blue: #00171f
+    Med Blue: #003459
+    Light Blue: #007ea7
+    Lighter Blue: #00a8e8
+    Dark Grey: #4a4a4a
+    
+    */
+    body {
+      margin: 0;
+    }
+    table {
+      border-spacing: 0;
+    }
+    td {
+      padding: 0;
+    }
+    img {
+      border: 0;
+    }
+    .wrapper {
+      width: 100%;
+
+      /* this makes it so no part of the email can go outside the center tag */
+      table-layout: fixed;
+
+      background-color: #cccccc;
+      padding-bottom: 60px;
+    }
+    .main {
+      width: 100%;
+      max-width: 600px;
+      background-color: #ffffff;
+      font-family: "Roboto Condensed", sans-serif;
+      color: #4a4a4a;
+      box-shadow: 0 0 25px rgba(0, 0, 0, 0.15);
+      border-spacing: 0;
+      text-align: center;
+    }
+    .social {
+      width: 38px;
+    }
+    .social-media {
+      padding: 20px 0px 12px 62px;
+    }
+    .two-columns {
+      font-size: 0;
+      text-align: center;
+    }
+    .two-columns .column {
+      width: 100%;
+      max-width: 300px;
+      display: inline-block;
+      vertical-align: top;
+    }
+
+    h3 {
+      font-family: "Roboto Condensed", sans-serif;
+      font-size: 28px;
+    }
+    h4 {
+      font-family: "Roboto Condensed", sans-serif;
+      font-size: 22px;
+    }
+    .three-columns {
+      font-size: 0;
+      padding: 35px 0 20px;
+    }
+    .three-columns .column {
+      width: 100%;
+      max-width: 200px;
+      display: inline-block;
+      vertical-align: top;
+    }
+    .three-columns .padding {
+      padding: 25px;
+    }
+    .three-columns .content {
+      font-size: 15px;
+      line-height: 20px;
+    }
+    /* .two-columns.last {
+
+    } */
+    .two-columns .padding {
+      padding: 20px;
+    }
+    .two-columns .content {
+      font-size: 15px;
+      line-height: 20px;
+      text-align: left;
+    }
+  </style>
+  <body>
+    <center class="wrapper">
+      <table class="main" width="100%" align="center">
+        <!-- BORDER -->
+        <tr>
+          <td height="8" style="background-color: #003459"></td>
+        </tr>
+        <!-- LOGO & SOCIAL MEDIA -->
+        <!-- No styling on tr, only td -->
+        <tr>
+          <td>
+            <table width="100%">
+              <tr>
+                <td class="two-columns">
+                  <table class="column">
+                    <tr>
+                      <td style="padding: 0 20px 10px">
+                        <a href="#"
+                          ><img
+                            src="https://cdn3.iconfinder.com/data/icons/pirate-outline-4/340/whale_ocean_sea_nature_animal_underwater_aquatic-256.png"
+                            alt="Whale"
+                            title="Logo"
+                            width="80"
+                            style="vertical-align: middle"
+                        /></a>
+                        <h1
+                          style="
+                            display: inline;
+                            text-align: center;
+                            vertical-align: middle;
+                            padding-left: 10px;
+                            font-size: 32px;
+                          "
+                        >
+                          Whale Mail
+                        </h1>
+                      </td>
+                    </tr>
+                  </table>
+
+                  <table class="column">
+                    <tr>
+                      <td class="social-media">
+                        <a href=""
+                          ><img
+                            src="https://cdn2.iconfinder.com/data/icons/colorful-guache-social-media-logos-1/155/social-media_facebook-512.png"
+                            alt=""
+                            class="social"
+                            style="padding: 0 2px 0 0"
+                        /></a>
+                        <a href=""
+                          ><img
+                            src="https://cdn2.iconfinder.com/data/icons/colorful-guache-social-media-logos-1/155/social-media_twitter-512.png"
+                            alt=""
+                            class="social"
+                            style="padding: 0 2px 0 0"
+                        /></a>
+                        <a href=""
+                          ><img
+                            src="https://cdn2.iconfinder.com/data/icons/colorful-guache-social-media-logos-1/157/social-media_youtube-512.png"
+                            alt=""
+                            class="social"
+                            style="padding: 0 2px 0 0"
+                        /></a>
+                        <a href=""
+                          ><img
+                            src="https://cdn4.iconfinder.com/data/icons/colorful-guache-social-media-logos-1/159/social-media_linkedin-256.png"
+                            alt=""
+                            class="social"
+                            style="padding: 0 2px 0 0"
+                        /></a>
+                        <a href=""
+                          ><img
+                            src="https://cdn4.iconfinder.com/data/icons/colorful-guache-social-media-logos-1/159/social-media_live.ly-256.png"
+                            alt=""
+                            class="social"
+                        /></a>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <!-- BANNER IMAGE -->
+        <tr>
+          <td
+            align="center"
+            width="600"
+            height="400"
+            style="
+              max-width: 100%;
+              background-image: url(https://images.unsplash.com/photo-1543226965-b454d7929dfe?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=889&q=80);
+              background-position: center center;
+              background-repeat: no-repeat;
+              background-size: cover;
+            "
+          >
+            <h1 style="color: #f1faee">Whale Mail</h1>
+            <h3 style="font-weight: 100; color: #f1faee">
+              Marketing Automation Platform
+            </h3>
+            <br />
+            <a
+              href="#"
+              style="
+                border-radius: 5px;
+                font-family: 'Roboto Condensed', sans-serif;
+                color: #f1faee;
+                font-size: 18px;
+                background: #00a8e8;
+                padding: 10px 10px 10px 10px;
+                text-decoration: none;
+                font-weight: bold;
+              "
+              >Learn More!</a
+            >
+          </td>
+        </tr>
+
+        <!-- TITLE, TEXT & BUTTON -->
+        <tr>
+          <td style="padding: 20px 25px 50px">
+            <table width="100%">
+              <tr>
+                <td>
+                  <h3>
+                    <span style="color: #00a8e8">Create</span> Email Marketing
+                    Campaigns!
+                  </h3>
+                  <p
+                    style="
+                      line-height: 23px;
+                      font-size: 15px;
+                      padding: 0 0 22px;
+                    "
+                  >
+                    Whale Mail is a marketing automation platform and email
+                    marketing service based in Australia that allows users to
+                    manage mailing lists and create email marketing campaigns to
+                    deliver to consumers. Whale Mail is a registered trademark
+                    of its operator, Plasma Research Group, an Australian
+                    corporation created in 2001 by Mr. Whale and Ms. Mail.
+                  </p>
+                  <a
+                    href="#"
+                    style="
+                      border-radius: 5px;
+                      font-family: 'Roboto Condensed', sans-serif;
+                      color: #f1faee;
+                      font-size: 18px;
+                      background: #00a8e8;
+                      padding: 10px 10px 10px 10px;
+                      text-decoration: none;
+                      font-weight: bold;
+                    "
+                    >Create Now!</a
+                  >
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <!-- BORDER -->
+        <tr>
+          <td height="2" style="background-color: #003459"></td>
+        </tr>
+
+        <!-- THREE COLUMN SECTION -->
+        <tr>
+          <td>
+            <table width="100%">
+              <tr>
+                <td class="three-columns">
+                  <table class="column">
+                    <tr>
+                      <td class="padding">
+                        <table class="content">
+                          <tr>
+                            <td>
+                              <a href="#"
+                                ><img
+                                  src="https://cdn0.iconfinder.com/data/icons/nft-non-fungible-token-1/2000/Illustration_4-512.png"
+                                  alt=""
+                                  width="150"
+                              /></a>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td style="padding: 5px 0 10px">
+                              <h4>Deployment</h4>
+                              <p>
+                                Utilize all of our technology to automate email
+                                distribution globally.
+                              </p>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                  <table class="column">
+                    <tr>
+                      <td class="padding">
+                        <table class="content">
+                          <tr>
+                            <td>
+                              <a href="#"
+                                ><img
+                                  src="https://cdn2.iconfinder.com/data/icons/tech-support-mentoring-and-training/73/76-512.png"
+                                  alt=""
+                                  width="150"
+                              /></a>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td style="padding: 5px 0 10px">
+                              <h4>Email Design</h4>
+                              <p>
+                                We offer pre-designed templates that have been
+                                optimised for the best results.
+                              </p>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                  <table class="column">
+                    <tr>
+                      <td class="padding">
+                        <table class="content">
+                          <tr>
+                            <td>
+                              <a href="#"
+                                ><img
+                                  src="https://cdn2.iconfinder.com/data/icons/tech-support-mentoring-and-training/73/54-512.png"
+                                  alt=""
+                                  width="150"
+                              /></a>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td style="padding: 5px 0 10px">
+                              <h4>Help Line</h4>
+                              <p>
+                                24 hour access to specialists that are willing
+                                to assist you in achieving your goals.
+                              </p>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <!-- BORDER -->
+        <tr>
+          <td height="2" style="background-color: #003459"></td>
+        </tr>
+        <!-- TWO COLUMN SECTION -->
+        <tr>
+          <td>
+            <table width="100%">
+              <tr>
+                <td class="two-columns last">
+                  <table class="column">
+                    <tr>
+                      <td class="padding">
+                        <table class="content">
+                          <tr>
+                            <td>
+                              <a href="#"
+                                ><img
+                                  src="https://cdn2.iconfinder.com/data/icons/tech-support-mentoring-and-training/73/17-256.png"
+                                  alt=""
+                                  width="260"
+                              /></a>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                  <table class="column">
+                    <tr>
+                      <td class="padding">
+                        <table class="content">
+                          <tr>
+                            <td>
+                              <h4>Automated Email Marketing</h4>
+                              <p>
+                                Email automation is a technique to make emails
+                                that reach the appropriate individuals with the
+                                right message at the right moment—without doing
+                                the effort every time.
+                              </p>
+                              <p style="padding-bottom: 15px">
+                                Send automated messages employing a marketing
+                                automation platform.
+                              </p>
+                              <a
+                                href="#"
+                                style="
+                                  border-radius: 5px;
+                                  font-family: 'Roboto Condensed', sans-serif;
+                                  color: #f1faee;
+                                  font-size: 18px;
+                                  background: #00a8e8;
+                                  padding: 10px 10px 10px 10px;
+                                  text-decoration: none;
+                                  font-weight: bold;
+                                "
+                                >Learn More!</a
+                              >
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <!-- FOOTER SECTION -->
+        <tr>
+          <td style="background-color: #2b2e33; color: #ffffff">
+            <table width="100%">
+              <tr>
+                <td style="padding: 45px 20px">
+                  <a width="260" style="text-decoration: none" href=""
+                    ><h1
+                      style="
+                        display: inline;
+                        text-align: center;
+                        vertical-align: middle;
+                        font-size: 32px;
+                        color: #ffffff;
+                      "
+                    >
+                      Whale Mail
+                    </h1></a
+                  >
+                  <p style="padding: 5px">Automated Email Marketing</p>
+                  <p style="padding: 3px">
+                    123 Syndey Road, Melbourne, Victoria 3058
+                  </p>
+
+                  <a href=""
+                    ><img
+                      src="https://cdn2.iconfinder.com/data/icons/colorful-guache-social-media-logos-1/155/social-media_facebook-512.png"
+                      alt=""
+                      class="social"
+                      style="padding: 0 2px 0 0"
+                  /></a>
+                  <a href=""
+                    ><img
+                      src="https://cdn2.iconfinder.com/data/icons/colorful-guache-social-media-logos-1/155/social-media_twitter-512.png"
+                      alt=""
+                      class="social"
+                      style="padding: 0 2px 0 0"
+                  /></a>
+                  <a href=""
+                    ><img
+                      src="https://cdn2.iconfinder.com/data/icons/colorful-guache-social-media-logos-1/157/social-media_youtube-512.png"
+                      alt=""
+                      class="social"
+                      style="padding: 0 2px 0 0"
+                  /></a>
+                  <a href=""
+                    ><img
+                      src="https://cdn4.iconfinder.com/data/icons/colorful-guache-social-media-logos-1/159/social-media_linkedin-256.png"
+                      alt=""
+                      class="social"
+                      style="padding: 0 2px 0 0"
+                  /></a>
+                  <a href=""
+                    ><img
+                      src="https://cdn4.iconfinder.com/data/icons/colorful-guache-social-media-logos-1/159/social-media_live.ly-256.png"
+                      alt=""
+                      class="social"
+                  /></a>
+                  <p style="padding: 10px">
+                    <a style="text-decoration: none; color: #ffffff" href="#">
+                      SUBSCRIBE
+                    </a>
+                  </p>
+                </td>
+              </tr>
+
+              <tr>
+                <td height="8" style="background-color: #000"></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </center>
+  </body>
+</html>
